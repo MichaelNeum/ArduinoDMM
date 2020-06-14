@@ -1,0 +1,15 @@
+D:\GitHub\ArduinoDMM\ArduinoDMM\ArduinoDMM\bin\Debug\ArduinoDMM.exe.config
+D:\GitHub\ArduinoDMM\ArduinoDMM\ArduinoDMM\bin\Debug\ArduinoDMM.exe
+D:\GitHub\ArduinoDMM\ArduinoDMM\ArduinoDMM\bin\Debug\ArduinoDMM.pdb
+D:\GitHub\ArduinoDMM\ArduinoDMM\ArduinoDMM\obj\Debug\ArduinoDMM.csprojAssemblyReference.cache
+D:\GitHub\ArduinoDMM\ArduinoDMM\ArduinoDMM\obj\Debug\MainWindow.g.cs
+D:\GitHub\ArduinoDMM\ArduinoDMM\ArduinoDMM\obj\Debug\App.g.cs
+D:\GitHub\ArduinoDMM\ArduinoDMM\ArduinoDMM\obj\Debug\ArduinoDMM_MarkupCompile.cache
+D:\GitHub\ArduinoDMM\ArduinoDMM\ArduinoDMM\obj\Debug\ArduinoDMM_MarkupCompile.lref
+D:\GitHub\ArduinoDMM\ArduinoDMM\ArduinoDMM\obj\Debug\MainWindow.baml
+D:\GitHub\ArduinoDMM\ArduinoDMM\ArduinoDMM\obj\Debug\ArduinoDMM.g.resources
+D:\GitHub\ArduinoDMM\ArduinoDMM\ArduinoDMM\obj\Debug\ArduinoDMM.Properties.Resources.resources
+D:\GitHub\ArduinoDMM\ArduinoDMM\ArduinoDMM\obj\Debug\ArduinoDMM.csproj.GenerateResource.cache
+D:\GitHub\ArduinoDMM\ArduinoDMM\ArduinoDMM\obj\Debug\ArduinoDMM.csproj.CoreCompileInputs.cache
+D:\GitHub\ArduinoDMM\ArduinoDMM\ArduinoDMM\obj\Debug\ArduinoDMM.exe
+D:\GitHub\ArduinoDMM\ArduinoDMM\ArduinoDMM\obj\Debug\ArduinoDMM.pdb
