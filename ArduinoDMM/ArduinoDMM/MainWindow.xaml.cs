@@ -14,18 +14,17 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.IO.Ports;
 using System.Windows.Threading;
+using ArduinoDMM.WPF.Controls;
 
 namespace ArduinoDMM
 {
-    // <summary>
-    // Interaktionslogik für MainWindow.xaml
-    // </summary>
     public partial class MainWindow : Window
     {
         SerialPort serial = new SerialPort();
         public MainWindow()
         {
             InitializeComponent();
+
             serial.BaudRate = 9600;
             serial.PortName = "COM4";
             try { serial.Open(); }
@@ -41,11 +40,11 @@ namespace ArduinoDMM
         private void SerialEncoder(string Data)
         {
             SerialLib values = new SerialLib(Data);
-            string command = values.getCommand;
-            int number = values.getNumber;
+            string command = values.Command;
+            int angle = values.Number;
 
             if (command.Equals("VoltDeg"))
-                gauge.RectManipulation(number);
+                gauge.RectManipulation(angle);
         }
     }
 }

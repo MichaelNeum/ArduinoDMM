@@ -23,7 +23,7 @@ namespace ArduinoDMM
             try { this._number = Convert.ToInt32(words[1]); }
             catch { }
         }
-        public string getCommand { get { return this._command; } }
-        public int getNumber { get { return this._number; } }
+        public string Command { get { return this._command; } }
+        public int Number { get { return this._number; } }
     }
 }
