@@ -50,7 +50,5 @@ namespace ArduinoDMM
         {
             PointerRect.RenderTransform = new RotateTransform(angle, PointerRect.Width, PointerRect.Height / 2);
         }
-        // git rm --cached -r .
-        // git add .
     }
 }
