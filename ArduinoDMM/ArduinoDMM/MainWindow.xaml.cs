@@ -32,13 +32,13 @@ namespace ArduinoDMM
             catch { }
             serial.DataReceived += Serial_DataReceived;
         }
-        private delegate void nextStep (string Data);
+        private delegate void nextStep(string Data);
         private void Serial_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
             string Data = serial.ReadLine();
             Dispatcher.Invoke(DispatcherPriority.Send, new nextStep(SerialEncoder), Data);
         }
-        private void SerialEncoder (string Data)
+        private void SerialEncoder(string Data)
         {
             SerialLib values = new SerialLib(Data);
             string command = values.getCommand;
