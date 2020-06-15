@@ -44,7 +44,10 @@ namespace ArduinoDMM
             int angle = values.Number;
 
             if (command.Equals("VoltDeg"))
+            {
                 gauge.RectManipulation(angle);
+                gauge1.RectManipulation(angle);
+            }
         }
     }
 }

@@ -7,5 +7,9 @@
         xmlns:local="clr-namespace:ArduinoDMM"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-  <controls:VoltageGauge HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="gauge"/>
+
+  <StackPanel Orientation="Horizontal">
+    <controls:VoltageGauge Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="gauge"/>
+    <controls:VoltageGauge Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="gauge1"/>
+  </StackPanel>
 </Window>
