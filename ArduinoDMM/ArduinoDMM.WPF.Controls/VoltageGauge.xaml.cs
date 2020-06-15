@@ -15,14 +15,16 @@ using System.Windows.Shapes;
 
 namespace ArduinoDMM.WPF.Controls
 {
-    /// <summary>
-    /// Interaktionslogik für VoltageGauge.xaml
-    /// </summary>
     public partial class VoltageGauge : UserControl
     {
         public VoltageGauge()
         {
             InitializeComponent();
+        }
+
+        public void RectManipulation(int angle)
+        {
+            PointerRect.RenderTransform = new RotateTransform(angle, PointerRect.Width, PointerRect.Height / 2);
         }
     }
 }

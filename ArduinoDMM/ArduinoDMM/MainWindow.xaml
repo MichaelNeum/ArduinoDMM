@@ -7,5 +7,5 @@
         xmlns:local="clr-namespace:ArduinoDMM"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <controls:VoltageGauge/>
+  <controls:VoltageGauge x:Name="gauge"/>
 </Window>
