@@ -95,5 +95,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ArduinoDMM.WPF.Controls\ArduinoDMM.WPF.Controls.csproj">
+      <Project>{4e712641-2641-454f-8e79-7b8d1b01f8f0}</Project>
+      <Name>ArduinoDMM.WPF.Controls</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

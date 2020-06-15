@@ -3,27 +3,9 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:controls="clr-namespace:ArduinoDMM.WPF.Controls;assembly=ArduinoDMM.WPF.Controls"
         xmlns:local="clr-namespace:ArduinoDMM"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-  <Grid>
-    <Rectangle Fill="LightCoral" Height="5" Width="100" Margin="0,0,100,0" x:Name="PointerRect" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-    <Canvas>
-      <Path Stroke="Black">
-        <Path.Data>
-          <PathGeometry>
-            <PathFigure StartPoint="290,210">
-              <ArcSegment IsLargeArc="True"
-                  Size="100, 100"
-                  Point="500, 210"
-                  SweepDirection="Clockwise" />
-            </PathFigure>
-          </PathGeometry>
-        </Path.Data>
-      </Path>
-    </Canvas>
-    <Label Content="5 Volt" Margin="496,210,0,0"/>
-    <Label Content="0 Volt" Margin="290,210,0,0"/>
-    <Label Content="2.5" Margin="385,80,0,0"/>
-  </Grid>
+    <controls:VoltageGauge/>
 </Window>
